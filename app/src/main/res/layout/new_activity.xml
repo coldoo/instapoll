@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Title..."
+            android:hint="Title..."
             android:textSize="23sp" />
 
         <EditText
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="..."
+            android:hint="..."
             android:textSize="23sp" />
 
         <EditText
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="..."
+            android:hint="..."
             android:textSize="23sp" />
 
         <EditText
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="..."
+            android:hint="..."
             android:textSize="23sp" />
 
         <Button
@@ -62,6 +62,13 @@
             android:layout_gravity="center_horizontal"
             android:text="CREATE POLL"
             android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/qrView"
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            app:srcCompat="@android:drawable/alert_light_frame" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
