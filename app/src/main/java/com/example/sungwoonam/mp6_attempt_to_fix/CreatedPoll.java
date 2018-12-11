@@ -10,7 +10,7 @@ import android.widget.Button;
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
 
-public class CreatedPoll extends AppCompatActivity implements ZXingScannerView.ResultHandler {
+/**public class CreatedPoll extends AppCompatActivity implements ZXingScannerView.ResultHandler {
     private ZXingScannerView scanner;
     private static int camFB = Camera.CameraInfo.CAMERA_FACING_BACK;
     private boolean accepted = true;
@@ -28,3 +28,4 @@ public class CreatedPoll extends AppCompatActivity implements ZXingScannerView.R
     }
 }
 
+**/

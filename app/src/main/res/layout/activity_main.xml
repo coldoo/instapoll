@@ -24,12 +24,27 @@
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="86dp" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="57dp" />
+
         <Button
             android:id="@+id/movetoNew"
             android:layout_width="137dp"
             android:layout_height="71dp"
             android:layout_gravity="center_horizontal"
             android:text="Create Poll!" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="49dp" />
+
+        <Button
+            android:id="@+id/scanPoll"
+            android:layout_width="137dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Scan Poll" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
